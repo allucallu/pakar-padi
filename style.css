@@ -1,0 +1,44 @@
+        .agriculture-bg {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+                              url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .rice-leaf-icon {
+            color: #4CAF50;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+        .camera-box {
+            border: 2px dashed #4CAF50;
+            transition: all 0.3s ease;
+        }
+        .camera-box:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .result-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4f0e8 100%);
+            border-left: 5px solid #4CAF50;
+        }
+        .btn-agriculture {
+            background: linear-gradient(to right, #4CAF50, #8BC34A);
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-agriculture:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+        }
+        .disease-card {
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        .disease-card:hover {
+            transform: translateY(-5px);
+            border-bottom: 3px solid #4CAF50;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        #videoElement {
+            transform: scaleX(-1);
+        }
