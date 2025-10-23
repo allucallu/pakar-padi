@@ -189,7 +189,6 @@ document.addEventListener("DOMContentLoaded", function () {
               <div>
                 <h4 class="font-bold text-yellow-800 mb-1">Gambar Tidak Dikenali</h4>
                 <p class="text-yellow-700">${data.message}</p>
-                // <p class="text-sm text-yellow-600 mt-1">Confidence non-padi: ${(data.clip_confidence * 100).toFixed(1)}%</p>
               </div>
             </div>
           </div>`;
@@ -248,4 +247,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
 });
+
 
